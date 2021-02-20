@@ -31,7 +31,7 @@ namespace C_
                 //informando cadastro
                 Console.WriteLine($"\nOla, {user} voce foi cadastrado <3 <3");
                 //Coletando dados
-                Console.WriteLine("\nAperte 1 para se logar, se nao aperte qualquer outra tecla para sair");
+                Console.WriteLine("\nAperte 1 para se logar ou 2 para sair");
                 //convertendo de string para int
                 conf=int.Parse(Console.ReadLine());
                
@@ -64,7 +64,7 @@ namespace C_
                 //tratativa de erro
                 else
                 {
-                    Console.WriteLine("\nAperte ""s"" para sair");
+                    Console.WriteLine("\nAperte 'S' para sair");
                     Console.ReadKey(true);
                 }
             }
